@@ -1,0 +1,155 @@
+/*======================================= 
+  Button Text, Background & Hover Colors
+=========================================*/
+
+/*** 
+  Default Button 
+***/
+
+/* blue-over-gBlueLight */
+.bs-button {
+  @apply text-white;
+}
+
+.bs-button.blue-over-gBlueLight {
+  @apply bg-primary;
+}
+
+.bs-button .bs-button-bg,
+.bs-button.blue-over-gBlueLight .bs-button-bg {
+  @apply bg-primaryLightGradient;
+}
+
+.bs-button:hover {
+  @apply text-white;
+}
+
+/*** 
+  Solid Button with Solid Hover
+***/
+
+/* white-over-blue */
+.bs-button.white-over-blue {
+  @apply bg-white text-primary;
+}
+
+.bs-button:hover.white-over-blue {
+  @apply bg-primary text-white;
+}
+
+/* white-over-skyblue */
+.bs-button.white-over-skyblue {
+  @apply bg-white text-secondary;
+}
+
+.bs-button.white-over-skyblue .bs-button-bg {
+  @apply bg-secondary text-white;
+}
+
+/* black-over-white */
+.bs-button.black-over-white {
+  @apply bg-blackLight text-white;
+}
+
+.bs-button.black-over-whitee .bs-button-bg {
+  @apply bg-white text-blackLight;
+}
+
+/* gray-over-white */
+.bs-button.gray-over-white {
+  @apply bg-gray text-white;
+}
+
+.bs-button.gray-over-white .bs-button-bg {
+  @apply bg-white text-gray;
+}
+
+/* green-over-white */
+.bs-button.green-over-white {
+  @apply bg-success text-white;
+}
+
+.bs-button.green-over-white .bs-button-bg {
+  @apply bg-white text-success;
+}
+
+/*** 
+  Solid with Gradient Hover Button 
+***/
+
+/* blueLight-over-gBlueLight */
+.bs-button.blueLight-over-gBlueLight {
+  @apply bg-primaryLight;
+}
+
+.bs-button.blueLight-over-gBlueLight .bs-button-bg {
+  @apply bg-primaryLightGradient;
+}
+
+/* skyblue-over-gSkyblueLight */
+.bs-button.skyblue-over-gSkyblueLight {
+  @apply bg-secondary;
+}
+
+.bs-button.skyblue-over-gSkyblueLight .bs-button-bg {
+  @apply bg-secondaryLightGradient;
+}
+
+/* skyblue-over-gSkyblueLight */
+.bs-button.skyblueLight-over-gSkyblueLigh {
+  @apply bg-secondaryLight;
+}
+
+.bs-button.skyblueLight-over-gSkyblueLigh .bs-button-bg {
+  @apply bg-secondaryLightGradient;
+}
+
+/*** 
+   Gradient Button with Gradient Hover 
+***/
+
+/* gBlueLight-over-reverseGradient */
+.bs-button.gBlueLight-over-reverseGradient {
+  @apply bg-primaryLightGradient;
+}
+
+.bs-button.gBlueLight-over-reverseGradient .bs-button-bg {
+  @apply bg-primaryLightGradientReverse;
+}
+
+/* gSkyblue-over-reverseGradient */
+.bs-button.gSkyblue-over-reverseGradient {
+  @apply bg-secondaryLightGradient;
+}
+
+.bs-button.gSkyblue-over-reverseGradient .bs-button-bg {
+  @apply bg-secondaryLightGradientReverse;
+}
+
+/*=============
+  Button Size
+===============*/
+
+/* Large Button */
+.btn-lg {
+  padding: 1.156rem 2rem;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  letter-spacing: 0.031rem;
+}
+
+/* Medium Button */
+.btn-md {
+  padding: 0.906rem 2rem;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  letter-spacing: 0.031rem;
+}
+
+/* Small Button */
+.btn-sm {
+  padding: 0.688rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.031rem;
+}

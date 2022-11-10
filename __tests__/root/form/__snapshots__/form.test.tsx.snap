@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Render Test renders a form correctly 1`] = `
+<form
+  class="form grid gap-4 lg:grid-cols-2"
+  data-testid="form"
+>
+  <div
+    class="mb-[.5rem] md:mb-[.75rem] col-start-1 col-end-3"
+  >
+    <h3
+      class="text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize text-secondary"
+    >
+      Send Us Message
+    </h3>
+  </div>
+  <div
+    class="max-sm:col-start-1 max-sm:col-end-3"
+  >
+    <div>
+      <input
+        autocomplete="Off"
+        class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+        data-testid="firstName"
+        id="firstName"
+        name="firstName"
+        placeholder="First Name*"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="max-sm:col-start-1 max-sm:col-end-3"
+  >
+    <div>
+      <input
+        autocomplete="Off"
+        class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+        data-testid="lastName"
+        id="lastName"
+        name="lastName"
+        placeholder="Last Name*"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="col-start-1 col-end-3"
+  >
+    <div>
+      <input
+        autocomplete="Off"
+        class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+        data-testid="email"
+        id="email"
+        name="email"
+        placeholder="Enter Email Address*"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="col-start-1 col-end-3"
+  >
+    <div>
+      <input
+        autocomplete="Off"
+        class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+        data-testid="phone"
+        id="phone"
+        name="phone"
+        placeholder="Phone number"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="col-start-1 col-end-3"
+  >
+    <div>
+      <textarea
+        autocomplete="Off"
+        class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent resize-none min-h-[130px]"
+        data-testid="message"
+        id="message"
+        name="message"
+        placeholder="Write Your Message Here*"
+      />
+    </div>
+  </div>
+  <div
+    class="col-start-1 col-end-3"
+  >
+    <div
+      class="inline-flex items-center flex-wrap gap-2"
+    >
+      <input
+        autocomplete="Off"
+        class="appearance-none hidden"
+        data-testid="terms"
+        id="terms"
+        name="terms"
+        placeholder="undefined*"
+        type="checkbox"
+        value=""
+      />
+      <label
+        class="text-base font-medium inline-flex items-center flex-wrap gap-[.625rem] cursor-pointer"
+        for="terms"
+      >
+        <span
+          class="relative w-[18px] h-[18px] border border-solid  rounded-sm inline-flex items-center after:content-[''] after:absolute after:w-[12px] after:h-[12px] after:bg-secondary after:rounded-sm after:translate-x-[-50%] after:translate-y-[-50%] after:left-[50%] after:top-[50%] after:invisible border-[#cbcbcb]"
+          data-testid="checkbox-box"
+        />
+        <span
+          class="inline-block relative top-[2px]  text-blackLight"
+          data-testid="checkbox-label"
+        >
+          Terms & Condition
+        </span>
+      </label>
+    </div>
+  </div>
+  <div
+    class="col-start-1 col-end-3"
+  >
+    <a
+      class="bs-button skyblue-over-gSkyblueLight
+        btn-sm  group relative cursor-pointer overflow-hidden inline-flex gap-[1rem] items-center justify-center backdrop-blur-[2px] capitalize font-medium rounded-[8px] transition-colors duration-[400ms]"
+      data-testid="submit-button"
+    >
+      <span
+        class="bs-btn-text"
+      >
+        Send Now
+      </span>
+      <span
+        class="absolute bs-button-bg inset-0 opacity-0 transition-opacity backdrop-blur-[2px] duration-[400ms] z-[-1] group-hover:opacity-[1]"
+      />
+    </a>
+  </div>
+</form>
+`;

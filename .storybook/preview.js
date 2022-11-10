@@ -1,5 +1,5 @@
 /**
- * Import global styles
+ * Import app global styles
  */
 import '../styles/globals.css';
 /**

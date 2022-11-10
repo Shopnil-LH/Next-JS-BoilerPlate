@@ -1,0 +1,47 @@
+.section-heading {
+  .section-title {
+    @apply text-primary;
+  }
+  // conditional spacing
+  .sub-title {
+    @apply mb-[.25rem] md:mb-[.5rem];
+  }
+  .section-title + .description {
+    @apply mt-[.625rem] md:mt-[.5rem];
+  }
+
+  // colorSchemes
+
+  // blue
+  &.blue {
+    .section-title {
+      @apply text-primary;
+    }
+  }
+  // skyblue
+  &.skyblue {
+    .section-title {
+      @apply text-secondary;
+    }
+  }
+  // white
+  &.white {
+    @apply text-white;
+    .section-title {
+      @apply text-white;
+    }
+    .description {
+      @apply text-white;
+    }
+  }
+  // black
+  &.black {
+    @apply text-black;
+    .section-title {
+      @apply text-black;
+    }
+    .description {
+      @apply text-black;
+    }
+  }
+}

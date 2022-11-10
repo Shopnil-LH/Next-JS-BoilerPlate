@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`To Do Render Test render a toDo correctly 1`] = `
+<div
+  class=""
+  data-testid="toDoHead"
+>
+  <h1
+    class="text-3xl font-bold"
+  >
+    My Diary
+  </h1>
+  <div
+    class="space-y-3"
+  >
+    <label
+      for="toDo_input"
+    >
+      Give input 
+    </label>
+    <input
+      class="border-2 ml-5"
+      data-testid="toDoInput"
+      name="mySchedule"
+      placeholder="Set Your Schedule"
+      type="text"
+    />
+    <br />
+    <button
+      class="px-[5%] py-[1%] bg-blue-800 text-white"
+    >
+      Add New  Schedule
+    </button>
+  </div>
+  <div
+    class="p-[2%] bg-red-400 inline-block rounded-[12px] mt-[2%]"
+  >
+    <p>
+      Hello
+    </p>
+    <p>
+      Bye
+    </p>
+  </div>
+  <br />
+  <button
+    class="px-[5%] py-[1%] bg-blue-800 text-white mt-[2%]"
+  >
+    Clear All
+  </button>
+</div>
+`;
