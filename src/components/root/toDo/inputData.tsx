@@ -30,6 +30,7 @@ export const InputData = ({
         <button
             className= {`px-[5%] py-[1%] bg-blue-800 text-white`}
             onClick = {onCLick}
+            data-testid = "addButton"
         >{buttonLabel}</button>
     </div>
   )

@@ -9,7 +9,7 @@ export const List = ({
       {
         lists.map ((list:string, ind:number) => {
           return (
-            <p key = {ind}>{list}</p>
+            <p key = {ind} data-testid = "lists">{list}</p>
           )
         })
       }

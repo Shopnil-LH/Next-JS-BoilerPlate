@@ -1,10 +1,1 @@
-export const toDoInputBoxValue =  [
-    {
-        value: "Hello World",
-        expectedError: false
-    },
-    {
-        value: "Bye World",
-        expectedError: false
-    }
-] 
+export const inputFieldDemo = ["Todo One", "Todo Two", "TodoThree"]

@@ -61,6 +61,7 @@ export const ToDo = ({
             <button 
                 onClick={(e:EventType) => clearHandler ? clearHandler(e) : ():void => {}}
                 className = {`px-[5%] py-[1%] bg-blue-800 text-white mt-[2%]`}
+                
             >
                 Clear All
             </button>
