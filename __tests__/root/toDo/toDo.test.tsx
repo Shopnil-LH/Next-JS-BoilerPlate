@@ -1,6 +1,6 @@
 import { toDoDemoData } from "@root/__mock-props__/components/root/toDo"
 import { ToDo } from "@src/components/root"
-import { fireEvent, getByText, render } from "@testing-library/react"
+import { fireEvent, getByTestId, getByText, render } from "@testing-library/react"
 import { inputFieldDemo } from "./config"
 
 /***
@@ -42,10 +42,30 @@ describe("Check the toDo  input field", () => {
  * Check the Add new Schedule button funcionble 
  */
 describe ("Check the ToDo list", () => {
-    let expectedOutput:string[] = ["Hello", "Bye"];
+    let expectedOutput:string[] = [];
+    let myInputItems:string [] = []
     it.each (inputFieldDemo) (`Check Input data`, (input) => {
         // expectedOutput.push (input)
-        const {getAllByTestId} = render (<ToDo {...toDoDemoData}/>)
+        myInputItems.push (input)
+        const {getAllByTestId,getByTestId} = render (
+            <ToDo 
+                toDoTitle= {toDoDemoData.toDoTitle}
+                inputFieldProps = {toDoDemoData.inputFieldProps}
+                clearHandler = {toDoDemoData.clearHandler}
+                lists = {
+                    {
+                        lists:  myInputItems
+                    }
+                }
+            />
+        )
+        const button = getByTestId ("addButton") as  HTMLInputElement
+        fireEvent.click (button, {
+            target: {
+                value: input
+            }
+        })
+        expectedOutput.push (button.value)
         const paragraph = getAllByTestId ("lists");
         const paraGraphElement:string[] = [];
 
