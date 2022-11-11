@@ -48,7 +48,7 @@ export const ToDo = ({
             {
                 !!lists.length
                 &&
-                <div className='p-[2%] bg-red-400 inline-block rounded-[12px] mt-[2%]' >
+                <div className='p-[2%] bg-red-400 inline-block rounded-[12px] mt-[2%]' data-testid = "listWrapper" >
                     <List 
                         lists= {lists}
                     />
@@ -61,6 +61,7 @@ export const ToDo = ({
             <button 
                 onClick={(e:EventType) => clearHandler ? clearHandler(e) : ():void => {}}
                 className = {`px-[5%] py-[1%] bg-blue-800 text-white mt-[2%]`}
+                data-testid = "clearButton"
                 
             >
                 Clear All

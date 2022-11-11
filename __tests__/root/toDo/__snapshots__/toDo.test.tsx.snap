@@ -35,6 +35,7 @@ exports[`To Do Render Test render a toDo correctly 1`] = `
   </div>
   <div
     class="p-[2%] bg-red-400 inline-block rounded-[12px] mt-[2%]"
+    data-testid="listWrapper"
   >
     <p
       data-testid="lists"
@@ -50,6 +51,7 @@ exports[`To Do Render Test render a toDo correctly 1`] = `
   <br />
   <button
     class="px-[5%] py-[1%] bg-blue-800 text-white mt-[2%]"
+    data-testid="clearButton"
   >
     Clear All
   </button>
