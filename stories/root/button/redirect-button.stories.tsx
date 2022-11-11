@@ -29,7 +29,7 @@ export default {
     // ButtonSize
     size: {
       control: 'inline-radio',
-      options: ['btn-lg', 'btn-md', 'btn-sm'],
+      options: ['btn-lg', 'btn-md', 'btn-sm' ],
     },
 
     // linkOpenNewTab
